@@ -1,0 +1,164 @@
+input{
+    border: none;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+
+.body{
+    display: flex;
+    justify-content: center;
+    background: url(../img_pokemon/arena.png);
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.body1{
+    display: flex;
+    justify-content: center;
+    background: black;   
+}
+.figth{
+    height: 808px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 850px;
+    position: relative;
+}
+.lifebar{
+    width: 320px;
+    border: 1px solid #000;
+    overflow: hidden;
+    background: white;
+    border-radius: 20px;
+}
+.life{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background: green;
+}
+.user,.enemy{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.enemy{
+    width: 400px;
+    transform: translateX(145px);
+}
+.charizard{
+    width: 400px;
+    height: 408px;
+}
+.charizard1{
+    width: 0px;
+    height: 0px;
+    margin-top: 0px;
+}
+
+.ataque{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.ataqueCharizard{
+    display: none;
+}
+.ataqueEPC{
+
+    display: none;
+}
+
+.ataqueEC{
+    display: none;
+    transform: translateX(-600px);
+}
+.picachu{
+    width: 100px;
+    height: 108px;
+}
+.picachu1{
+    width: 0px;
+    height: 0px;
+    margin-top: 0px;
+}
+.ataqueP{
+    width: 100px;
+    height: 40px;
+    background-color: transparent;
+}
+
+.ataquepicachu{
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.ataqueespecialpicachu1{
+    width: 708px;
+    height: 400px;
+    
+    margin-top: 20px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ataqueespecialpicachu{
+    display: none;
+}
+.ataqueEP{
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+}
+.fondo{
+    display: none;
+}
+
+.activePicachu{
+    width: 320px;
+    height: 328px;
+    transform: translateX(462px);
+}
+.activeCharizard{
+    width: 320px;
+    height: 328px;
+    transform: translateX(-556px) translateY(-304px);
+    position: absolute;
+    display: block;
+}
+.active__especial{
+    display: block;
+    position: absolute;
+    top: 200px;
+    left: 70px;
+    height: 400px;
+    width: 708px;
+}
+.none{
+    display: none;
+}
+.ganador{
+    position: absolute;
+    left: 37%;
+    top: 80px;
+    font-size: 60px;
+    max-width: 530px;
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    height: 150px;
+    width: auto;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
